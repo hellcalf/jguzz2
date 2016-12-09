@@ -24,3 +24,16 @@ C:\Users\delphi\Downloads\ingsoftware\ingsoftware\obj\Debug\ingsoftware.cotizaci
 C:\Users\delphi\Downloads\ingsoftware\ingsoftware\obj\Debug\ingsoftware.obra.resources
 C:\Users\delphi\Downloads\ingsoftware\ingsoftware\obj\Debug\ingsoftware.Properties.Resources.resources
 C:\Users\delphi\Downloads\ingsoftware\ingsoftware\obj\Debug\ingsoftware.csproj.GenerateResource.Cache
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\bin\Debug\ingsoftware.exe.config
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.exe
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.pdb
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\bin\Debug\ingsoftware.exe
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\bin\Debug\ingsoftware.pdb
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.csprojResolveAssemblyReference.cache
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.controlmano.resources
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.empleado.resources
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.Form1.resources
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.cotizacion.resources
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.obra.resources
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.Properties.Resources.resources
+C:\Users\delphi\Downloads\ingsoftware\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.csproj.GenerateResource.Cache
