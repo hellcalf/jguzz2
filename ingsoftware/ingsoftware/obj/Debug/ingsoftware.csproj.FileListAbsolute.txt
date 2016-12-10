@@ -50,3 +50,6 @@ C:\Users\delphi\Source\Repos\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftwar
 C:\Users\delphi\Source\Repos\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.obra.resources
 C:\Users\delphi\Source\Repos\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.Properties.Resources.resources
 C:\Users\delphi\Source\Repos\jguzz2\ingsoftware\ingsoftware\obj\Debug\ingsoftware.csproj.GenerateResource.Cache
+C:\Users\delphi\Desktop\jguzz22\ingsoftware\ingsoftware\bin\Debug\ingsoftware.exe.config
+C:\Users\delphi\Desktop\jguzz22\ingsoftware\ingsoftware\obj\Debug\ingsoftware.exe
+C:\Users\delphi\Desktop\jguzz22\ingsoftware\ingsoftware\obj\Debug\ingsoftware.pdb
