@@ -33,21 +33,21 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
+            this.txt__curp = new System.Windows.Forms.TextBox();
+            this.txt_direccion = new System.Windows.Forms.TextBox();
+            this.txt_nss = new System.Windows.Forms.TextBox();
+            this.cb_dia = new System.Windows.Forms.ComboBox();
+            this.cb_mes = new System.Windows.Forms.ComboBox();
+            this.cb_año = new System.Windows.Forms.ComboBox();
+            this.cb_status = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txt_sueldo = new System.Windows.Forms.TextBox();
+            this.cb_puesto = new System.Windows.Forms.ComboBox();
+            this.btn_guardar = new System.Windows.Forms.Button();
+            this.btn_cancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -100,75 +100,75 @@
             this.label5.TabIndex = 4;
             this.label5.Text = "Fecha De Nacimiento";
             // 
-            // textBox1
+            // txt_nombre
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 62);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 20);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txt_nombre.Location = new System.Drawing.Point(110, 62);
+            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(176, 20);
+            this.txt_nombre.TabIndex = 5;
+            this.txt_nombre.TextChanged += new System.EventHandler(this.txt_nombre_TextChanged);
             // 
-            // textBox2
+            // txt__curp
             // 
-            this.textBox2.Location = new System.Drawing.Point(110, 102);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(176, 20);
-            this.textBox2.TabIndex = 6;
+            this.txt__curp.Location = new System.Drawing.Point(110, 102);
+            this.txt__curp.Margin = new System.Windows.Forms.Padding(2);
+            this.txt__curp.Name = "txt__curp";
+            this.txt__curp.Size = new System.Drawing.Size(176, 20);
+            this.txt__curp.TabIndex = 6;
             // 
-            // textBox3
+            // txt_direccion
             // 
-            this.textBox3.Location = new System.Drawing.Point(110, 154);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(176, 20);
-            this.textBox3.TabIndex = 7;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.txt_direccion.Location = new System.Drawing.Point(110, 154);
+            this.txt_direccion.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_direccion.Name = "txt_direccion";
+            this.txt_direccion.Size = new System.Drawing.Size(176, 20);
+            this.txt_direccion.TabIndex = 7;
+            this.txt_direccion.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // txt_nss
             // 
-            this.textBox4.Location = new System.Drawing.Point(110, 191);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(176, 20);
-            this.textBox4.TabIndex = 8;
+            this.txt_nss.Location = new System.Drawing.Point(110, 191);
+            this.txt_nss.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_nss.Name = "txt_nss";
+            this.txt_nss.Size = new System.Drawing.Size(176, 20);
+            this.txt_nss.TabIndex = 8;
             // 
-            // comboBox1
+            // cb_dia
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(135, 236);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(42, 21);
-            this.comboBox1.TabIndex = 9;
+            this.cb_dia.FormattingEnabled = true;
+            this.cb_dia.Location = new System.Drawing.Point(135, 236);
+            this.cb_dia.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_dia.Name = "cb_dia";
+            this.cb_dia.Size = new System.Drawing.Size(42, 21);
+            this.cb_dia.TabIndex = 9;
             // 
-            // comboBox2
+            // cb_mes
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(181, 236);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(46, 21);
-            this.comboBox2.TabIndex = 10;
+            this.cb_mes.FormattingEnabled = true;
+            this.cb_mes.Location = new System.Drawing.Point(181, 236);
+            this.cb_mes.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_mes.Name = "cb_mes";
+            this.cb_mes.Size = new System.Drawing.Size(46, 21);
+            this.cb_mes.TabIndex = 10;
             // 
-            // comboBox3
+            // cb_año
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(230, 236);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(75, 21);
-            this.comboBox3.TabIndex = 11;
+            this.cb_año.FormattingEnabled = true;
+            this.cb_año.Location = new System.Drawing.Point(230, 236);
+            this.cb_año.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_año.Name = "cb_año";
+            this.cb_año.Size = new System.Drawing.Size(75, 21);
+            this.cb_año.TabIndex = 11;
             // 
-            // comboBox4
+            // cb_status
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(47, 290);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(43, 21);
-            this.comboBox4.TabIndex = 12;
+            this.cb_status.FormattingEnabled = true;
+            this.cb_status.Location = new System.Drawing.Point(47, 290);
+            this.cb_status.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_status.Name = "cb_status";
+            this.cb_status.Size = new System.Drawing.Size(43, 21);
+            this.cb_status.TabIndex = 12;
             // 
             // label6
             // 
@@ -200,63 +200,63 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "Puesto";
             // 
-            // textBox5
+            // txt_sueldo
             // 
-            this.textBox5.Location = new System.Drawing.Point(151, 292);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(67, 20);
-            this.textBox5.TabIndex = 16;
+            this.txt_sueldo.Location = new System.Drawing.Point(151, 292);
+            this.txt_sueldo.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_sueldo.Name = "txt_sueldo";
+            this.txt_sueldo.Size = new System.Drawing.Size(67, 20);
+            this.txt_sueldo.TabIndex = 16;
             // 
-            // comboBox5
+            // cb_puesto
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(283, 293);
-            this.comboBox5.Margin = new System.Windows.Forms.Padding(2);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(67, 21);
-            this.comboBox5.TabIndex = 17;
+            this.cb_puesto.FormattingEnabled = true;
+            this.cb_puesto.Location = new System.Drawing.Point(283, 293);
+            this.cb_puesto.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_puesto.Name = "cb_puesto";
+            this.cb_puesto.Size = new System.Drawing.Size(67, 21);
+            this.cb_puesto.TabIndex = 17;
             // 
-            // button1
+            // btn_guardar
             // 
-            this.button1.Location = new System.Drawing.Point(56, 338);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 28);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btn_guardar.Location = new System.Drawing.Point(56, 338);
+            this.btn_guardar.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(90, 28);
+            this.btn_guardar.TabIndex = 18;
+            this.btn_guardar.Text = "Guardar";
+            this.btn_guardar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btn_cancelar
             // 
-            this.button2.Location = new System.Drawing.Point(181, 339);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 28);
-            this.button2.TabIndex = 19;
-            this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Location = new System.Drawing.Point(181, 339);
+            this.btn_cancelar.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.Size = new System.Drawing.Size(86, 28);
+            this.btn_cancelar.TabIndex = 19;
+            this.btn_cancelar.Text = "Cancelar";
+            this.btn_cancelar.UseVisualStyleBackColor = true;
             // 
             // empleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 376);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox5);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.btn_cancelar);
+            this.Controls.Add(this.btn_guardar);
+            this.Controls.Add(this.cb_puesto);
+            this.Controls.Add(this.txt_sueldo);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.comboBox4);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cb_status);
+            this.Controls.Add(this.cb_año);
+            this.Controls.Add(this.cb_mes);
+            this.Controls.Add(this.cb_dia);
+            this.Controls.Add(this.txt_nss);
+            this.Controls.Add(this.txt_direccion);
+            this.Controls.Add(this.txt__curp);
+            this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -278,20 +278,20 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.TextBox txt_nombre;
+        private System.Windows.Forms.TextBox txt__curp;
+        private System.Windows.Forms.TextBox txt_direccion;
+        private System.Windows.Forms.TextBox txt_nss;
+        private System.Windows.Forms.ComboBox cb_dia;
+        private System.Windows.Forms.ComboBox cb_mes;
+        private System.Windows.Forms.ComboBox cb_año;
+        private System.Windows.Forms.ComboBox cb_status;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txt_sueldo;
+        private System.Windows.Forms.ComboBox cb_puesto;
+        private System.Windows.Forms.Button btn_guardar;
+        private System.Windows.Forms.Button btn_cancelar;
     }
 }

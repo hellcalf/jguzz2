@@ -27,9 +27,11 @@ namespace ingsoftware
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void txt_nombre_TextChanged(object sender, EventArgs e)
         {
 
         }
+
+   
     }
 }

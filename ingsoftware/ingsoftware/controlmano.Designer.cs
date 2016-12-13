@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.Lbl_trabajador = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -37,15 +37,15 @@
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // Lbl_trabajador
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 49);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ID Trabajador";
+            this.Lbl_trabajador.AutoSize = true;
+            this.Lbl_trabajador.Location = new System.Drawing.Point(22, 49);
+            this.Lbl_trabajador.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Lbl_trabajador.Name = "Lbl_trabajador";
+            this.Lbl_trabajador.Size = new System.Drawing.Size(72, 13);
+            this.Lbl_trabajador.TabIndex = 0;
+            this.Lbl_trabajador.Text = "ID Trabajador";
             // 
             // label2
             // 
@@ -113,7 +113,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Lbl_trabajador);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "controlmano";
             this.Text = "editarobra";
@@ -125,7 +125,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Lbl_trabajador;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
